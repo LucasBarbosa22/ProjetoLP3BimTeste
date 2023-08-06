@@ -1426,7 +1426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 2057957717}
-  door2: {fileID: 0}
+  door2: {fileID: 1186931223}
 --- !u!65 &871989975
 BoxCollider:
   m_ObjectHideFlags: 0

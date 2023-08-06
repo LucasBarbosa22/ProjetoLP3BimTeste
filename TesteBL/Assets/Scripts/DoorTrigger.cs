@@ -10,17 +10,21 @@ public class DoorTrigger : MonoBehaviour
     bool isOpened = false;
 
     Animator doorAnimator;
+    Animator door2Animator;
 
     private void Start()
     {
         doorAnimator = door.GetComponent<Animator>();
+        door2Animator = door2.GetComponent<Animator>();
     }
 
-    void OnTriggerEnter(Collider col) {
+    void OnTriggerEnter(Collider col)
+    {
         if (isOpened == false)
         {
             isOpened = true;
-            doorAnimator.Play("OpenDoor",0,0.0f);
+            doorAnimator.Play("OpenDoor", 0, 0.0f);
+            door2Animator.Play("OpenDoor2", 0, 0.0f);
         }
     }
 }
