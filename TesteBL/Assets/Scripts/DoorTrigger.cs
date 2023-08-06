@@ -27,4 +27,14 @@ public class DoorTrigger : MonoBehaviour
             door2Animator.Play("OpenDoor2", 0, 0.0f);
         }
     }
+
+    void OnTriggerExit(Collider col)
+    {
+        if (isOpened == true)
+        {
+            isOpened = false;
+            doorAnimator.Play("CloseDoor", 0, 0.0f);
+            door2Animator.Play("CloseDoor2", 0, 0.0f);
+        }
+    }
 }
