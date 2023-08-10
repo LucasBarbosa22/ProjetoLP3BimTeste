@@ -15,12 +15,23 @@ public class PlayerMove : MonoBehaviour
     public Transform PlayerCam;
     private Transform cam;
 
+    static public bool dialogue = false;
+
     private void Start()
     {
         controller = gameObject.GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         cam = Camera.main.transform;
+    }
+
+    private void FixedUpdate()
+    {
+        if (!PlayerMove.dialogue)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
     }
 
     void Update()
