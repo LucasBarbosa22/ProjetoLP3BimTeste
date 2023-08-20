@@ -16,9 +16,9 @@ public class NPCSystem : MonoBehaviour
             canva.SetActive(true);
             PlayerMove.dialogue = true;
             NewDialogue("Oi garoto, eu meu chamo Homem de Papelao e voce deve estar perguntando como chegou aqui, nao e mesmo?");
-            NewDialogue("1");
-            NewDialogue("2");
-            NewDialogue("3");
+            NewDialogue("Para voce andar, use as teclas A, W, S, D");
+            NewDialogue("Para pegar objetos use a tecla E");
+            NewDialogue("Para pegar objetos use a tecla E");
             canva.transform.GetChild(1).gameObject.SetActive(true);
         }
     }

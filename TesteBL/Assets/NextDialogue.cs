@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NextDialogue : MonoBehaviour
 {
-    int index = 0;
+    int index = 1;
     private void Update()
     {
         if(Input.GetMouseButton(0) && transform.childCount > 1)
@@ -15,7 +15,7 @@ public class NextDialogue : MonoBehaviour
                 index += 1;
                 if(transform.childCount == index)
                 {
-                    index = 0;
+                    index = 1;
                     PlayerMove.dialogue = false;
                 }
             }
