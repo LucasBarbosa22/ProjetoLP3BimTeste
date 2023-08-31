@@ -4,37 +4,28 @@ using UnityEngine;
 
 public class DoorTrigger : MonoBehaviour
 {
-    [SerializeField] GameObject door;
-    [SerializeField] GameObject door2;
+    public static DoorTrigger instance;
 
-    bool isOpened = false;
-
-    Animator doorAnimator;
-    Animator door2Animator;
-
-    private void Start()
+    public bool isPressioned1 = false;
+    private void Awake()
     {
-        doorAnimator = door.GetComponent<Animator>();
-        door2Animator = door2.GetComponent<Animator>();
+        if (instance == this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
     }
 
     void OnTriggerEnter(Collider col)
     {
-        if (isOpened == false)
-        {
-            isOpened = true;
-            doorAnimator.Play("OpenDoor", 0, 0.0f);
-            door2Animator.Play("OpenDoor2", 0, 0.0f);
-        }
+        isPressioned1 = true;
     }
 
     void OnTriggerExit(Collider col)
     {
-        if (isOpened == true)
-        {
-            isOpened = false;
-            doorAnimator.Play("CloseDoor", 0, 0.0f);
-            door2Animator.Play("CloseDoor2", 0, 0.0f);
-        }
+        isPressioned1 = false;
     }
 }
