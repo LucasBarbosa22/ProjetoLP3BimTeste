@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.2/staging' branch; Version is '2022.2.15f1 (30d813e1a2a9) revision 3201043'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'pt' Physical Memory: 14270 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'pt' Physical Memory: 16288 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.2.15f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Lucas Barreto/Documents/GitHub/ProjetoLP3BimTeste/TesteBL
+C:/Users/Administrador/Downloads/lucas cabaço/ProjetoLP3BimTeste-main/cabaço
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52122
-Successfully changed project path to: C:/Users/Lucas Barreto/Documents/GitHub/ProjetoLP3BimTeste/TesteBL
-C:/Users/Lucas Barreto/Documents/GitHub/ProjetoLP3BimTeste/TesteBL
+62542
+Successfully changed project path to: C:/Users/Administrador/Downloads/lucas cabaço/ProjetoLP3BimTeste-main/cabaço
+C:/Users/Administrador/Downloads/lucas cabaço/ProjetoLP3BimTeste-main/cabaço
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,61 +47,61 @@ C:/Users/Lucas Barreto/Documents/GitHub/ProjetoLP3BimTeste/TesteBL
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15168] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 714587756 [EditorId] 714587756 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6C2HEP4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5756] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 272239959 [EditorId] 272239959 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QG3I5TD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15168] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 714587756 [EditorId] 714587756 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6C2HEP4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5756] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 272239959 [EditorId] 272239959 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QG3I5TD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 25.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Lucas Barreto/Documents/GitHub/ProjetoLP3BimTeste/TesteBL/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Administrador/Downloads/lucas cabaço/ProjetoLP3BimTeste-main/cabaço/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
     Vendor:   ATI
-    VRAM:     7135 MB
-    Driver:   30.0.13014.8
+    VRAM:     8147 MB
+    Driver:   31.0.21023.2010
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009834 seconds.
-- Loaded All Assemblies, in  0.933 seconds
+Registered in 0.008318 seconds.
+- Loaded All Assemblies, in  0.277 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.550 seconds
+- Finished resetting the current domain, in  0.220 seconds
 Domain Reload Profiling:
-	ReloadAssembly (595ms)
-		BeginReloadAssembly (356ms)
+	ReloadAssembly (174ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (351ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (324ms)
-				TypeCache.Initialize (322ms)
-					TypeCache.ScanAssembly (319ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (95ms)
+				TypeCache.Initialize (95ms)
+					TypeCache.ScanAssembly (93ms)
+				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (433ms)
+			SetupLoadedEditorAssemblies (173ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (14ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (113ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,50 +109,50 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas Barreto\Documents\GitHub\ProjetoLP3BimTeste\TesteBL\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas Barreto\Documents\GitHub\ProjetoLP3BimTeste\TesteBL\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.382 seconds
-Refreshing native plugins compatible for Editor in 5.47 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrador\Downloads\lucas cabaço\ProjetoLP3BimTeste-main\cabaço\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrador\Downloads\lucas cabaço\ProjetoLP3BimTeste-main\cabaço\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.624 seconds
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.845 seconds
+- Finished resetting the current domain, in  0.443 seconds
 Domain Reload Profiling:
-	ReloadAssembly (408ms)
-		BeginReloadAssembly (240ms)
+	ReloadAssembly (187ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		LoadAllAssembliesAndSetupDomain (968ms)
-			LoadAssemblies (536ms)
+			CreateAndSetChildDomain (19ms)
+		LoadAllAssembliesAndSetupDomain (434ms)
+			LoadAssemblies (255ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (549ms)
-				TypeCache.Initialize (505ms)
-					TypeCache.ScanAssembly (497ms)
-				ResolveRequiredComponents (8ms)
+			SetupTypeCache (230ms)
+				TypeCache.Initialize (212ms)
+					TypeCache.ScanAssembly (207ms)
+				ResolveRequiredComponents (4ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (561ms)
+			SetupLoadedEditorAssemblies (321ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (411ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 30.96 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3667 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (188.0 KB). Loaded Objects now: 4136.
-Memory consumption went from 134.5 MB to 134.3 MB.
-Total: 5.326000 ms (FindLiveObjects: 0.362800 ms CreateObjectMapping: 0.115100 ms MarkObjects: 4.633000 ms  DeleteObjects: 0.213100 ms)
+Unloading 49 unused Assets / (188.6 KB). Loaded Objects now: 4136.
+Memory consumption went from 134.6 MB to 134.4 MB.
+Total: 3.301200 ms (FindLiveObjects: 0.294200 ms CreateObjectMapping: 0.135000 ms MarkObjects: 2.643500 ms  DeleteObjects: 0.227400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -166,51 +166,195 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 179227.050596 seconds.
+  path: Assets/diner_lamp.obj
+  artifactKey: Guid(940c74862f128e24f8e25b2ecd676aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/diner_lamp.obj using Guid(940c74862f128e24f8e25b2ecd676aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c665ce12f9e44741fdfa886973cc85d5') in 0.112770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 361.080274 seconds.
+  path: Assets/Itens material/ceiling_light_intake_Albedo.tga.png
+  artifactKey: Guid(eb9744b60680bca4cbb270c9e16a4d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/ceiling_light_intake_Albedo.tga.png using Guid(eb9744b60680bca4cbb270c9e16a4d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e063245f37505f550e10e601ccad625') in 0.015383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Itens material/ceiling_light_intake_Specular.tga.png
+  artifactKey: Guid(b201d7fd96bbf304aa713a90828b823f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/ceiling_light_intake_Specular.tga.png using Guid(b201d7fd96bbf304aa713a90828b823f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7943f6c98caeb49404580db606d9f2f3') in 0.010118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.005392 seconds.
+  path: Assets/Itens material/lamp_color.jpg
+  artifactKey: Guid(c065ba670ed1f1f47b315789b5ffe47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/lamp_color.jpg using Guid(c065ba670ed1f1f47b315789b5ffe47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239beb8a7f0e9eb768fd196c879a4037') in 0.010589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.288770 seconds.
+  path: Assets/Itens material/ceiling_light.fbx
+  artifactKey: Guid(7ad64adf52c2b2e45a904815e9486569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/ceiling_light.fbx using Guid(7ad64adf52c2b2e45a904815e9486569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0133b2a723b7d09c42db0fe9ac86e87') in 0.024431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 114.410528 seconds.
+  path: Assets/Itens material/ceiling-light
+  artifactKey: Guid(f9fa34e1e37197644b091f57d7a11096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/ceiling-light using Guid(f9fa34e1e37197644b091f57d7a11096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdfc6a2b2da7cfbd4a59352aa8aeac5') in 0.000444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.020630 seconds.
+  path: Assets/Itens material/ceiling-light/source
+  artifactKey: Guid(9ff7dedea4ffdb34d8a61667d9896665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/ceiling-light/source using Guid(9ff7dedea4ffdb34d8a61667d9896665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2386f1277d3af5bfe40b2fa104196d77') in 0.000419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.961375 seconds.
+  path: Assets/Itens material/ceiling-light/source/ceiling_light.fbx
+  artifactKey: Guid(58b2fd97c4cdf6949be099049b3ed276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/ceiling-light/source/ceiling_light.fbx using Guid(58b2fd97c4cdf6949be099049b3ed276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5ae1f9535fd441975c64c7aafc43ca') in 0.016058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 98.486439 seconds.
+  path: Assets/Itens material/light-fixture
+  artifactKey: Guid(d86a238f7e896a244a22eb5a8935d6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/light-fixture using Guid(d86a238f7e896a244a22eb5a8935d6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45850bbe6b1565b1884769586f545ab') in 0.000460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.818469 seconds.
+  path: Assets/Itens material/light-fixture/source
+  artifactKey: Guid(6776407b9a90f784ebe1f496de23385d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/light-fixture/source using Guid(6776407b9a90f784ebe1f496de23385d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d36a993a58eef54ff2ebd1f9eff5902') in 0.000424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.065573 seconds.
+  path: Assets/Itens material/light-fixture/source/LightFixture.fbx
+  artifactKey: Guid(3668c6b98c854c347a6489a75e726cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/light-fixture/source/LightFixture.fbx using Guid(3668c6b98c854c347a6489a75e726cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc6f3de781f598dc91df3e7fe094644') in 0.020814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 216.081192 seconds.
+  path: Assets/Itens material/CeilingLightRound.fbx
+  artifactKey: Guid(5df5bb7516a06974ba3eb52a7655dac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/CeilingLightRound.fbx using Guid(5df5bb7516a06974ba3eb52a7655dac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e03de6d4b5ca0f38aafb98bcb1b3974') in 0.037910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 47.210446 seconds.
+  path: Assets/Material/Brown.mat
+  artifactKey: Guid(521bb9653a32a8341a479ce244417843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Brown.mat using Guid(521bb9653a32a8341a479ce244417843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90905044a2afdb9c6bf78d16b8859594') in 0.011950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1081.191657 seconds.
+  path: Assets/Itens material/low-poly-skateboard
+  artifactKey: Guid(033829cbd17b7174a8285399713f2ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/low-poly-skateboard using Guid(033829cbd17b7174a8285399713f2ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b784da04faf3a474301d75544dac89ea') in 0.000416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.932095 seconds.
+  path: Assets/Itens material/low-poly-skateboard/source
+  artifactKey: Guid(a91eeacc681186f4ea6bd595d8d8d314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/low-poly-skateboard/source using Guid(a91eeacc681186f4ea6bd595d8d8d314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4623498cdd6b8d0d19565a9ccb7b678c') in 0.000481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.548644 seconds.
+  path: Assets/Itens material/low-poly-skateboard 1
+  artifactKey: Guid(6c76597c6af121541afe6ded1834668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/low-poly-skateboard 1 using Guid(6c76597c6af121541afe6ded1834668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a973209115184d6efac3ac732e87fe80') in 0.000511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.618375 seconds.
+  path: Assets/Itens material/low-poly-skateboard 1/source
+  artifactKey: Guid(7bf14cf4cab0ec34c8c5b346376580ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/low-poly-skateboard 1/source using Guid(7bf14cf4cab0ec34c8c5b346376580ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0fae7f964442535d37c51a69466853') in 0.000512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062850 seconds.
+  path: Assets/Itens material/low-poly-skateboard 1/source/skateboard.fbx
+  artifactKey: Guid(d2ae8dba17c1d034d89b867f9a30e923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/low-poly-skateboard 1/source/skateboard.fbx using Guid(d2ae8dba17c1d034d89b867f9a30e923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8de45a0e35ff3ba0993987fd359044') in 0.017732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas Barreto\Documents\GitHub\ProjetoLP3BimTeste\TesteBL\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas Barreto\Documents\GitHub\ProjetoLP3BimTeste\TesteBL\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.015 seconds
-Refreshing native plugins compatible for Editor in 5.05 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrador\Downloads\lucas cabaço\ProjetoLP3BimTeste-main\cabaço\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrador\Downloads\lucas cabaço\ProjetoLP3BimTeste-main\cabaço\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.558 seconds
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.814 seconds
+- Finished resetting the current domain, in  0.933 seconds
 Domain Reload Profiling:
-	ReloadAssembly (336ms)
-		BeginReloadAssembly (210ms)
+	ReloadAssembly (179ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		LoadAllAssembliesAndSetupDomain (675ms)
-			LoadAssemblies (380ms)
+			CreateAndSetChildDomain (35ms)
+		LoadAllAssembliesAndSetupDomain (376ms)
+			LoadAssemblies (217ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (400ms)
-				TypeCache.Initialize (389ms)
-					TypeCache.ScanAssembly (379ms)
-				ResolveRequiredComponents (10ms)
+			SetupTypeCache (202ms)
+				TypeCache.Initialize (199ms)
+					TypeCache.ScanAssembly (193ms)
+				ResolveRequiredComponents (4ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (748ms)
+			SetupLoadedEditorAssemblies (312ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (548ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 6.95 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3627 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (166.2 KB). Loaded Objects now: 4151.
-Memory consumption went from 125.2 MB to 125.0 MB.
-Total: 5.947000 ms (FindLiveObjects: 0.462100 ms CreateObjectMapping: 0.290000 ms MarkObjects: 5.034700 ms  DeleteObjects: 0.159000 ms)
+Unloading 3626 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (151.4 KB). Loaded Objects now: 4196.
+Memory consumption went from 130.2 MB to 130.1 MB.
+Total: 2.998700 ms (FindLiveObjects: 0.351800 ms CreateObjectMapping: 0.110100 ms MarkObjects: 2.419000 ms  DeleteObjects: 0.117200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -224,3 +368,80 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 703.958282 seconds.
+  path: Assets/Itens material/stylized-low-poly-wooden-full-length-mirror
+  artifactKey: Guid(576d28e3e7f92e940a70a5eb2dc1a5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/stylized-low-poly-wooden-full-length-mirror using Guid(576d28e3e7f92e940a70a5eb2dc1a5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dba8227db4059500997a489be8f85fc') in 0.001574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.766160 seconds.
+  path: Assets/Itens material/stylized-low-poly-wooden-full-length-mirror/source
+  artifactKey: Guid(1828c608a37a8e34fb3d837f3b0e0505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/stylized-low-poly-wooden-full-length-mirror/source using Guid(1828c608a37a8e34fb3d837f3b0e0505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3517a17e80897160df465973b29ab1') in 0.000467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.961693 seconds.
+  path: Assets/Itens material/stylized-low-poly-wooden-full-length-mirror 1
+  artifactKey: Guid(69eec811b021b1443b5e5b7c246cafb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/stylized-low-poly-wooden-full-length-mirror 1 using Guid(69eec811b021b1443b5e5b7c246cafb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5640debfc88df0a1916fb36fe563ff2f') in 0.000506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.654992 seconds.
+  path: Assets/Itens material/stylized-low-poly-wooden-full-length-mirror 1/source
+  artifactKey: Guid(4e403e34447e5e84e8e17f63de44d7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/stylized-low-poly-wooden-full-length-mirror 1/source using Guid(4e403e34447e5e84e8e17f63de44d7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61b7937201b9cc224b4b6bc08fde8fa') in 0.000491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.531325 seconds.
+  path: Assets/Itens material/stylized-low-poly-wooden-full-length-mirror 1/source/wooden_full_length_mirror
+  artifactKey: Guid(82b39b744a43f994bb8ab39d2a3c2389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/stylized-low-poly-wooden-full-length-mirror 1/source/wooden_full_length_mirror using Guid(82b39b744a43f994bb8ab39d2a3c2389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ecd6c1eb927cfb676cfdb688e70237') in 0.000518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.064724 seconds.
+  path: Assets/Itens material/stylized-low-poly-wooden-full-length-mirror 1/source/wooden_full_length_mirror/wooden_full_length_mirror.fbx
+  artifactKey: Guid(4c124e578b2bbfd45a4a1f54eee99312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/stylized-low-poly-wooden-full-length-mirror 1/source/wooden_full_length_mirror/wooden_full_length_mirror.fbx using Guid(4c124e578b2bbfd45a4a1f54eee99312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8044b694e2baef89f78af964a85acf90') in 0.091811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Itens material/stylized-low-poly-wooden-full-length-mirror 1/source/wooden_full_length_mirror/wooden_full_length_mirror_mat_metallic.png
+  artifactKey: Guid(81cd969ba9403a24b820b0974f5cc24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/stylized-low-poly-wooden-full-length-mirror 1/source/wooden_full_length_mirror/wooden_full_length_mirror_mat_metallic.png using Guid(81cd969ba9403a24b820b0974f5cc24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38cdf6c1da8e106f26d7251fa68a7071') in 0.014512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 44.234579 seconds.
+  path: Assets/Itens material/stylized-low-poly-wooden-full-length-mirror 1/textures/wooden_full_length_mirror_mat_diffuse.png
+  artifactKey: Guid(7cfdb6b71c19a4845bee6ac81390f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/stylized-low-poly-wooden-full-length-mirror 1/textures/wooden_full_length_mirror_mat_diffuse.png using Guid(7cfdb6b71c19a4845bee6ac81390f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1addddfddeebdb62b66b37f99e40b0b3') in 0.013598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Itens material/stylized-low-poly-wooden-full-length-mirror 1/textures/wooden_full_length_mirror_mat_occlusion.png
+  artifactKey: Guid(67a3f4e0fdb315e4f80e7660dbd41872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Itens material/stylized-low-poly-wooden-full-length-mirror 1/textures/wooden_full_length_mirror_mat_occlusion.png using Guid(67a3f4e0fdb315e4f80e7660dbd41872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3427f3f898065e80fc2ec180c17642') in 0.007197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A opera��o de E/S foi anulada devido a uma sa�da de thread ou a uma requisi��o de aplicativo.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

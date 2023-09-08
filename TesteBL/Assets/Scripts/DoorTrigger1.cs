@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoorTrigger2 : MonoBehaviour
+public class DoorTrigger : MonoBehaviour
 {
-    public static DoorTrigger2 instance;
-    
-    public bool isPressioned2 = false;
+    public static DoorTrigger instance;
+
+    public bool isPressioned1 = false;
     private void Awake()
     {
-        if (instance == this) { 
+        if (instance == this)
+        {
             Destroy(gameObject);
         }
         else
@@ -20,11 +21,11 @@ public class DoorTrigger2 : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        isPressioned2 = true;
+        isPressioned1 = true;
     }
 
     void OnTriggerExit(Collider col)
     {
-        isPressioned2 = false;
+        isPressioned1 = false;
     }
 }
