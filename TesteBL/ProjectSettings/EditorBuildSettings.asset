@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/TutorialCena.unity
     guid: 7d959a46255bef249ab368115e51e956
   - enabled: 1
-    path: Assets/Scenes/CenarioCena.unity
-    guid: ee1ff095bff1270458ab6572447088dc
+    path: Assets/Scenes/TutorialCena 2.unity
+    guid: c88e1375c680e5547bee8f66b0fcef0b
   m_configObjects: {}
