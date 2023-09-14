@@ -1,4 +1,4 @@
-# **PROJETO DE LP - 3° BIMESTRE**
+# **THE LITTLE ONE**
 ### Alunos: Bruno Lima e Lucas Barreto
 ### Tópicos
 
